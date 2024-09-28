@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -18,15 +22,39 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"],
-      "@/app/*": ["./src/app/*"],
-      "@/components/*": ["./src/components/*"],
-      "@/layouts/*": ["./src/layouts/*"],
-      "@/lib/*": ["./src/lib/*"],
-      "@/data/*": ["./src/data/*"]
+      "@/*": [
+        "./src/*"
+      ],
+      "@/app/*": [
+        "./src/app/*"
+      ],
+      "@/components/*": [
+        "./src/components/*"
+      ],
+      "@/layouts/*": [
+        "./src/layouts/*"
+      ],
+      "@/lib/*": [
+        "./src/lib/*"
+      ],
+      "@/data/*": [
+        "./src/data/*"
+      ]
     },
-    "types": ["@types/mute-stream"]
+    "types": [
+      "@types/mute-stream"
+    ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js",
+    "**/*.jsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    ".next"
+  ]
 }

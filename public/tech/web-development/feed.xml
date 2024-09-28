@@ -1,0 +1,84 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>SoftexForge | Software Solution | Innovation in System &amp; Application Software</title>
+      <link>https://softexforge.com//blog</link>
+      <description>We bring your ideas to life with tailored software solutions. Whether it&amp;apos;s system software, from kernel modifications to driver development, or application software for mobile, desktop, web, or standalone platforms, we&amp;apos;ve got you covered. From concept to production, we handle every step of the process to deliver high-quality, custom-built software.</description>
+      <language>en-us</language>
+      <managingEditor>nasim.stg@gmail.com (nasimstg)</managingEditor>
+      <webMaster>nasim.stg@gmail.com (nasimstg)</webMaster>
+      <lastBuildDate>Thu, 02 Feb 2023 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://softexforge.com//tech/web-development/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://softexforge.com//blog/responsive-navbar-design-html-css-js</guid>
+    <title>Best Responsive Navbar Designs using HTML, CSS, and JavaScript</title>
+    <link>https://softexforge.com//blog/responsive-navbar-design-html-css-js</link>
+    <description>Discover the best responsive navbar designs with HTML, CSS, and JS. Learn the pros and cons, use cases, and examples of horizontal, vertical, and hamburger menu navbars. Get tips on how to choose the perfect design for your website.</description>
+    <pubDate>Thu, 02 Feb 2023 00:00:00 GMT</pubDate>
+    <author>nasim.stg@gmail.com (nasimstg)</author>
+    <category>html-css-js</category><category>tools</category><category>web-development</category>
+  </item>
+
+  <item>
+    <guid>https://softexforge.com//blog/creating-a-website-with-html-and-css</guid>
+    <title>Creating a Website with HTML and CSS: Examples and Best Practices (Part 06)</title>
+    <link>https://softexforge.com//blog/creating-a-website-with-html-and-css</link>
+    <description> In this comprehensive guide, we cover the basics of creating a website using HTML and CSS. From the structure of an HTML document to the styling of elements with CSS, this blog post covers all the essential information you need to get started. The post includes code examples of websites created using HTML and CSS, along with best practices and tips for making your website both visually appealing and user-friendly. Whether you&#39;re a beginner looking to build your first website or a seasoned developer looking to expand your knowledge, this blog post provides valuable insights and resources. </description>
+    <pubDate>Tue, 31 Jan 2023 00:00:00 GMT</pubDate>
+    <author>nasim.stg@gmail.com (nasimstg)</author>
+    <category>html-css-js</category><category>guide</category><category>web-development</category>
+  </item>
+
+  <item>
+    <guid>https://softexforge.com//blog/online-html-editor</guid>
+    <title>Easily create and edit HTML code with the best Online HTML Editor</title>
+    <link>https://softexforge.com//blog/online-html-editor</link>
+    <description> Explore the best online HTML editors for web development. Simplify your workflow and increase productivity with the right tool for the job. Improve your coding efficiency and streamline your work process. </description>
+    <pubDate>Sun, 29 Jan 2023 00:00:00 GMT</pubDate>
+    <author>nasim.stg@gmail.com (nasimstg)</author>
+    <category>html-css-js</category><category>tools</category><category>web-development</category>
+  </item>
+
+  <item>
+    <guid>https://softexforge.com//blog/css-essentials-a-comprehensive-guide-to-web-design-and-development</guid>
+    <title>CSS Fundamentals: A Guide for Web Development (part_04)</title>
+    <link>https://softexforge.com//blog/css-essentials-a-comprehensive-guide-to-web-design-and-development</link>
+    <description>Learn the essentials of CSS, including selectors, properties, box model, typography, responsive design, and more. Boost your web design skills with this comprehensive guide.</description>
+    <pubDate>Sat, 28 Jan 2023 00:00:00 GMT</pubDate>
+    <author>nasim.stg@gmail.com (nasimstg)</author>
+    <category>html-css-js</category><category>guide</category><category>web-development</category>
+  </item>
+
+  <item>
+    <guid>https://softexforge.com//blog/excessive-list-of-html-tags</guid>
+    <title>Excessive list of HTML Tags</title>
+    <link>https://softexforge.com//blog/excessive-list-of-html-tags</link>
+    <description>In the last episode (Episode 02) we have seen many tags of HTML and today we are going to see some, Today we will learn more about HTML tags. We will also see some examples. Series: How to learn web design and development complete course in Bengali?</description>
+    <pubDate>Thu, 26 Jan 2023 00:00:00 GMT</pubDate>
+    <author>nasim.stg@gmail.com (nasimstg)</author>
+    <category>html-css-js</category><category>guide</category><category>web-development</category>
+  </item>
+
+  <item>
+    <guid>https://softexforge.com//blog/all-about-html-tags</guid>
+    <title>HTML Tags for Web Design and Development </title>
+    <link>https://softexforge.com//blog/all-about-html-tags</link>
+    <description>Today we will learn about HTML document (html document), HTML tag (html tag), types of HTML tags. Also we will see some examples (html example). How to learn series web design and development complete course? Learn Web Design and Development with nasimStg(wooeneStudio) HTML CSS JS </description>
+    <pubDate>Wed, 25 Jan 2023 00:00:00 GMT</pubDate>
+    <author>nasim.stg@gmail.com (nasimstg)</author>
+    <category>html-css-js</category><category>guide</category><category>web-development</category>
+  </item>
+
+  <item>
+    <guid>https://softexforge.com//blog/basics-of-web-design-and-development</guid>
+    <title>The Basics of Web Design and Development</title>
+    <link>https://softexforge.com//blog/basics-of-web-design-and-development</link>
+    <description>Today we will start learning web design and development in Bangla (learn website design and development in Bangla). We are going to start with the basics or fundamentals of web design and development for beginners. We will use html to create a website skeleton for our website. Next day we will start with website style. Let&#39;s start!</description>
+    <pubDate>Mon, 23 Jan 2023 00:00:00 GMT</pubDate>
+    <author>nasim.stg@gmail.com (nasimstg)</author>
+    <category>html-css-js</category><category>guide</category><category>web-development</category>
+  </item>
+
+    </channel>
+  </rss>
