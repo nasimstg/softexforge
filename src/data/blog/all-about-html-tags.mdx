@@ -1,0 +1,339 @@
+---
+title: 'HTML Tags for Web Design and Development '
+date: '2023-01-25'
+tags: ['html-css-js', 'guide', 'web-development']
+draft: false
+summary: "Today we will learn about HTML document (html document), HTML tag (html tag), types of HTML tags. Also we will see some examples (html example). How to learn series web design and development complete course? Learn Web Design and Development with nasimStg(wooeneStudio) HTML CSS JS "
+authors: ['default']
+---
+
+<TOCInline toc={props.toc} fromHeading={1} toHeading={2} asDisclosure />
+<br />
+# Basics of HTML HTML (Hypertext Markup Language) to create web pages
+Standard language used. It's a markup language, meaning it's not a visual design language
+Used to create the structure and layout of web pages. HTML consists of a series of elements,
+Each is represented by a tag, which defines the structure and content of a web page
+is used to These tags are usually surrounded by angle brackets and mostly in tag pairs
+Comes with an open and close tag. Some examples of common [HTML tags](https://learnhowto.vercel.app/blog/all-about-html-tags#what-does-html-tag-mean) include:
+
+- `<html>` This tag is used to define the beginning and end of an HTML document.
+- `<head>` This tag is used to contain information about the document, such as the title and meta data.
+- The `<body>` tag is used to contain the visible content of the web page.
+- `<h1>` This tag is used to create a heading. There are different levels of headers, <br />
+   Where `<h1>` is most important and `<h6>` is least important.
+- `<p>` This tag is used to create a paragraph.
+- `<a>` This tag is used to create links to other web pages.
+- `<img>` This tag is used to add an image to a web page.
+
+If you haven't read about the [Basics of web design and development with html css js](https://learnhowto.vercel.app/blog/basics-of-web-design-and-development) , Please [Read Here]((https://learnhowto.vercel.app/blog/basics-of-web-design-and-development))
+
+## A simple html webpage
+
+```html:index.html
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>My Web Page</title>
+    </head>
+    <body>
+	    <h1>Welcome to my web page</h1>
+	    <p>This is a simple web page created using HTML.</p>
+	    <p>Here is a link to <a href="https://www.example.com">Example</a> website. </p>
+	     <img src="image.jpg" alt="Image">
+     </body>
+     </html>
+```
+
+## What does HTML tag mean?
+
+An HTML tag is a type of markup used to define the structure and layout of a web page. It consists of a name, usually surrounded by angle brackets, and sometimes additional attributes providing more information about the element.
+For example, the `<p>` tag is used to create a paragraph element. When you want to create a paragraph in a web page, you use the opening `<p>` tag at the beginning of the paragraph and the closing `<p>` tag at the end of the paragraph. The text within the tags is the content of the paragraph.
+`html <p>This is a paragraph of text.</p> `
+Another example is the `<a>` tag used to create hyperlinks. The `<a>` tag has an attribute called href that indicates the URL of the linked page.
+    ```html
+    <a href="https://learnhowto.vercel.app">Learn anything with learnHowTo</a>
+    ```
+This will create a link called "Learn anything with learnHowTo" and when clicked, it will take the user to the "https://learnhowto.vercel.app" website.
+
+In short, HTML tags are used to define the structure and layout of web pages and to indicate how different types of content should be displayed. They are the building blocks of HTML documents and are used to create the basic structure of web pages.
+
+## Types of HTML tags:
+
+There are different types of HTML tags, each with a specific purpose and function. Some of the main types of HTML tags include:
+
+- **Structural Tags:** These tags are used to create the basic structure of a web page, such as headings, paragraphs and lists. Examples include `<html>`, `<head>`, `<body>`, `<h1>`, `<p>`, `<ol>` and `<ul>`.
+- **Semantic Tags:** These tags are used to describe the meaning and structure of a web page's content. Examples include `<header>`, `<nav>`, `<article>`, `<aside>`, `<footer>`, `<time>` and `<mark>`.
+- **Link Tags:** These tags are used to create links to other web pages or specific locations on the same web page. Examples include `<a>` and `<link>`.
+- **Media Tags:** These tags are used to add various types of media such as images, videos and audio to a web page. Examples include `<img>`, `<video>`, `<audio>`, and `<source>`.
+- **Form Tags:** These tags are used to create forms for user input. Examples include `<form>`, `<input>`, `<textarea>`, `<select>`, `<option>`, `<label>`, and `<button>`.
+- **Meta Tags:** These tags provide metadata about the web page, such as keywords, descriptions and character encodings. Examples include `<meta>`, `<base>` .
+- **Obsolete tags:** These are tags that were used in previous versions of HTML but are no longer recommended for use. Examples include `<font>`, `<center>`, `<strike>`.
+
+## Overall, HTML tags can be divided into 3 main categories:
+
+- **Containers** , which contain other elements and are used to group them.
+- **Content tags** , which are used to define the actual content.
+- **Meta tags** , which are used to provide additional information about the document.
+
+## HTML tags:
+
+There are many different HTML tags that can be used to create a web page, each with its own specific function and purpose. Here is a list of some commonly used HTML tags, along with an example of how they might be used:
+{' '}
+<TOCInline toc={props.toc} exclude="Overview" fromHeading={3} toHeading={3} asDisclosure />
+
+- ### `<html>`
+This tag is used to define the start and end of an HTML document. This is usually the first and last tag in an HTML document.
+  ```html:index.html
+  <!DOCTYPE html>
+  <html>
+  <!-- content of the web page -->
+  </html>
+  ```
+
+- ### `<head>`
+  This tag is used to contain information about the document, such as titles and meta data. The content inside the head tag is not visible on the web page.
+  ```html:index.html
+  <head>
+  	<title>My Web Page</title>
+  	<meta charset="UTF-8">
+  </head>
+  ```
+- ### `<body>`
+  This tag is used to contain the visible content of the web page.
+  ```html:index.html
+      <body>
+          <h1>Welcome to my web page</h1>
+          <p>This is a simple web page created using HTML.</p>
+      </body>
+  ```
+- ### `<h1>`
+  This tag is used to create a title. There are different levels of headings, with `<h1>` being the most important and `<h6>` being the least important.
+  ```html:index.html
+  <h1> This is heading 1</h1>
+  <h2> This is heading 2</h2>
+  <h3> This is heading 3</h3>
+  <h4> This is heading 4</h4>
+  <h5> This is heading 5</h5>
+  <h6> This is heading 6</h6>
+  ```
+- ### `<p>`
+  This tag is used to create a paragraph. <br />
+  ```html
+  <p>This is a paragraph of text.</p>
+  ```
+- ### `<a>`
+  This tag is used to create links to other web pages.
+  ```html
+  <a href="https://https://learnhowto.vercel.app">Learn anything with learnHowTo</a>
+  ```
+- ### `<img>`
+  This tag is used to add an image to a web page.
+  ```html
+  <img src="image.jpg" alt="Image" />
+  ```
+- ### `<ul>`
+  This tag is used to create an unordered list.
+  ```html
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+  ```
+- ### `<ol>`
+  This tag is used to create a sorted list.
+  ```html
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+  ```
+- ### `<li>`
+  This tag is used to create a list item. It is usually used inside `<ul>` or `<ol>` tags.
+  ```html
+  <li>Item</li>
+  ```
+- ### `<div>`
+  This tag is used to group elements together and apply styles to them.`<div>`: This tag is used to group elements together and apply styles to them.
+  ````html:div.html
+      <div id="container">
+          <p>This is a paragraph of text.</p>
+          <p>This is another paragraph of text.</p>
+      </div>
+      ```
+  ````
+- ### `<span>`
+  This tag is used to group inline elements and apply styles to them.
+  ```html
+  <h1>this is a <span>simple</span> heading</h1>
+  ```
+- ### `<header>`
+  It is used to define a container for a group of roles or navigational links.
+  ```html:header.html
+  <header>
+      <h1>Welcome to my website</h1>
+      <nav>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+      </nav>
+  </header>
+  ```
+- ### `<nav>`
+  It is used to define a set of navigation links. [Navbar Example Code](https://learnhowto.vercel.app/blog/responsive-navbar-design-html-css-js)
+  ```html:navigation.html
+      <nav>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+      </nav>
+  ```
+- ### `<article>`
+  It is used to define a self-contained composition in a document, such as a forum post, a magazine or newspaper article, or a blog entry.
+  ```html:article.html
+  <article>
+      <h2>Article Title</h2>
+      <p>Article content goes here.</p>
+      <p>Additional content goes here.</p>
+  </article>
+  ```
+- ### `<aside>`
+  It is used to define a section of a page that contains content that is related to the main content, but can stand alone as a separate piece of content.
+  ````html:aside.html
+      <aside>
+          <h3>Related Links</h3>
+          <ul>
+              <li><a href="#">Link 1</a></li>
+              <li><a href="#">Link 2</a></li>
+              <li><a href="#">Link 3</a></li>
+          </ul>
+      </aside>
+      ```
+  ````
+- ### `<footer>`
+  It is used to define a container for the footer of a document or a section.
+  ```html
+  <footer>
+    <p>Copyright © 2021 My Website</p>
+  </footer>
+  ```
+- ### `<form>`
+  It is used to create a form for user input.
+  ```html:form.html
+  <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+
+      <input type="submit" value="Submit">
+  </form>
+  ```
+- ### `<input>`
+  It is used to create different types of input fields like text, password, checkbox, radio, submit etc.
+  ```html
+  <input type="text" id="name" name="name" placeholder="Enter your name" />
+  ```
+- ### `<select>`
+  It is used to create a drop-down list.
+  ```html
+  <label for="cars">Select a car:</label>
+  <select id="cars" name="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+  </select>
+  ```
+- ### `<textarea>`
+  It is used to create a multi-line input field for text.
+  ```html
+  <textarea id="message" name="message" rows="10" cols="30"></textarea>
+  ```
+- ### `<label>`
+  It is used to create a label for an input element.
+  ```html
+  <label for="email">Email:</label> <input type="email" id="email" name="email" />
+  ```
+- ### `<button>`
+  It is used to create a clickable button.
+  ````html
+  <button type="submit">Submit</button>
+  ```
+  ````
+- ### `<table>`
+
+  It is used to create a table.
+
+  ```html:table.html
+  <table>
+      <tr>
+          <th>Header 1</th>
+          <th>Header 2</th>
+      </tr>
+      <tr>
+          <td>Row 1, Cell 1</td>
+          <td>Row 1, Cell 2</td>
+      </tr>
+      <tr>
+          <td>Row 2, Cell 1</td>
+          <td>Row 2, Cell 2</td>
+      </tr>
+  </table>
+  ```
+
+- ### `<tr>`
+  It is used to create a table row.
+  ```html
+  <tr>
+    <td>Row 1, Cell 1</td>
+    <td>Row 1, Cell 2</td>
+  </tr>
+  ```
+- ### `<th>` এবং `<td>`
+  These tags are used to create table cells, where `<th>` is used for header cells and `<td>` is used for regular cells.
+  ```html
+  <th>Header 1</th>
+  <td>Row 1, Cell 1</td>
+  ```
+- ### `<style>`
+
+  It is used to define a category for CSS styles.
+
+  ```html
+  <style>
+    body {
+      background-color: #f1f1f1;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      color: #333;
+    }
+  </style>
+  ```
+
+- ### `<link>`
+  It is used to link to an external CSS file.
+  ```html
+  <link rel="stylesheet" href="styles.css" />
+  ```
+- ### `<meta>`
+  It is used to provide metadata about web pages, such as keywords, descriptions, and character encodings.
+  ```html
+  <meta name="keywords" content="html, tags, examples" />
+  <meta name="description" content="A list of commonly used HTML tags with examples" />
+  ```
+
+{' '}
+<br />
+This is not a complete list of all HTML tags but it covers the most commonly used tags
+There are many other HTML tags available that can be used for special purposes.
+
+## Related Blog Posts :
+  - [The Basics of Web Design and Development](https://learnhowto.vercel.app/blog/basics-of-web-design-and-development)
+  - [Excessive list of HTML Tags](https://learnhowto.vercel.app/blog/excessive-list-of-html-tags)
+  - [CSS Fundamentals: A Guide for Web Development](https://learnhowto.vercel.app/blog/css-essentials-a-comprehensive-guide-to-web-design-and-development)
+  - [Easily create and edit HTML code with the best Online HTML Editor](https://learnhowto.vercel.app/blog/online-html-editor)

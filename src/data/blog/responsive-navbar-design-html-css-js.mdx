@@ -1,0 +1,247 @@
+---
+title: 'Best Responsive Navbar Designs using HTML, CSS, and JavaScript'
+date: '2023-02-02'
+tags: ['html-css-js', 'tools', 'web-development']
+draft: false
+summary: "Discover the best responsive navbar designs with HTML, CSS, and JS. Learn the pros and cons, use cases, and examples of horizontal, vertical, and hamburger menu navbars. Get tips on how to choose the perfect design for your website."
+authors: ['default']
+---
+Navigation bars are an essential component of every website, serving as a guide for users to navigate through the site and access its content. With the rise of mobile devices and different screen sizes, it's important to ensure that your website's navigation bar is responsive and adapts to different screen sizes.
+In this article, we'll explore the best responsive navbar designs that can be created using HTML, CSS, and JavaScript. Whether you're building a simple portfolio website or a complex e-commerce platform, these designs will help you create a navigation bar that is both functional and visually appealing.
+# Here are some HTML CSS JS responsive navbars with example code: 
+<br />
+<TOCInline toc={props.toc} asDisclosure fromHeading={1} toHeading={2} />
+<br />
+
+-  ## Fixed Top Navbar: 
+   The fixed top navbar is one of the most common responsive navbar designs. It's a simple design that stays at the top of the screen, regardless of the user's scrolling. To create a fixed top navbar, you can use CSS position: fixed property, and set the top and left values to 0. This will ensure that the navbar stays at the top of the screen.
+    
+- ## Hamburger Menu Navbar: 
+   The hamburger menu navbar is a popular responsive navbar design, especially for mobile devices. It uses a hamburger icon to hide and show the menu items, conserving space on the screen. To create a hamburger menu navbar, you can use JavaScript to toggle the visibility of the menu items, and CSS to style the menu and the hamburger icon.
+    
+- ## Sticky Navbar: 
+    The sticky navbar is a design that remains fixed at the top of the screen when the user scrolls, but unlike the fixed top navbar, it only becomes fixed after the user has scrolled a certain distance. To create a sticky navbar, you can use JavaScript to detect the user's scroll position, and then use CSS position: fixed property to fix the navbar at the top of the screen.
+    
+- ##  Dropdown Navbar:
+    The dropdown navbar is a design that shows a dropdown menu when a user hovers over a parent menu item. This design is perfect for websites with a large number of menu items, as it can conserve space on the screen and make the menu more organized. To create a dropdown navbar, you can use CSS to style the dropdown menu and JavaScript to show and hide the dropdown menu on hover.
+    
+- ##  Animated Navbar:
+   The animated navbar is a design that uses animation to enhance the user experience. You can use CSS animations and transitions to create a smooth and elegant animation effect. To create an animated navbar, you can use JavaScript to detect the user's scroll position and then use CSS to animate the navbar.
+<br />
+
+# Pros, Cons and Use Cases for Each Navbar Design
+ <TOCInline toc={props.toc} asDisclosure  fromHeading={2} toHeading={2} />
+  - ##  Horizontal Navbar: 
+        Pros:
+        -   Simple and straightforward design, easy to understand for users.
+        -   Takes up less vertical space compared to vertical navbars.
+        -   Suitable for larger screens.
+
+        Cons:
+        -   Can become cluttered and difficult to navigate with many menu items.
+        -   May not be suitable for smaller screens as it may require horizontal scrolling.
+
+        Use Cases:
+
+        -   Suitable for websites with a small number of menu items.
+        -   Works well for websites that prioritize horizontal space.
+
+ - ## Vertical Navbar: 
+    Pros:
+
+    -   Easy to navigate on smaller screens as it takes up less horizontal space.
+    -   Can accommodate a large number of menu items without becoming cluttered.
+    -   Can be used to create an elegant and minimalist design.
+
+    Cons:
+
+    -   May take up a lot of vertical space, making it unsuitable for smaller screens.
+    -   May require vertical scrolling, which can be inconvenient for users.
+
+    Use Cases:
+
+    -   Ideal for websites with a large number of menu items.
+    -   Suitable for websites that prioritize vertical space.
+    -   Can be used to create an attractive and simple design.
+
+  - ##  Hamburger Navbar: 
+    Pros:
+
+    -   Takes up minimal screen space, making it ideal for smaller screens.
+    -   Allows users to access the navigation menu with a single tap, providing a seamless experience.
+    -   Can be used to create a modern and stylish design.
+
+    Cons:
+
+    -   May be less intuitive for some users, as they may not be familiar with the hamburger icon.
+    -   May not be suitable for larger screens as it may not provide enough space to display the navigation menu.
+
+    Use Cases:
+
+    -   Ideal for responsive websites that need to adjust the navigation menu based on the screen size.
+    -   Can be used to create a sleek and modern design.
+
+  - ##  Dropdown Navbar: 
+    Pros:
+
+    -   Can accommodate a large number of menu items without becoming cluttered.
+    -   Easy to navigate on smaller screens as it takes up less horizontal space.
+    -   Can be used to create a simple and elegant design.
+
+    Cons:
+
+    -   May be less intuitive for some users, as they may not be familiar with dropdown menus.
+    -   May take up a lot of vertical space, making it unsuitable for smaller screens.
+    -   May require vertical scrolling, which can be inconvenient for users.
+
+    Use Cases:
+
+    -   Ideal for websites with a large number of menu items.
+    -   Suitable for websites that prioritize vertical space.
+    -   Can be used to create an attractive and simple design.
+
+  - ## Sidebar Navbar: 
+    Pros:
+
+    -   Can accommodate a large number of menu items without becoming cluttered.
+    -   Easy to navigate on smaller screens as it takes up less horizontal space.
+    -   Can be used to create a modern and stylish design.
+
+    Cons:
+
+    -   May take up a lot of vertical space, making it unsuitable for smaller screens.
+    -   May require vertical scrolling, which can be inconvenient for users.
+    -   May not be suitable for larger screens as it may not provide enough space to display the navigation menu.
+
+    Use Cases:
+
+    -   Ideal for websites with a large number of menu items.
+    -   Suitable for websites that prioritize vertical space.
+    -   Can be used to create a modern and stylish design.
+
+### Fixed Top/Horizoltal navbar Code Example
+```html:Fixed_top_or_Horizoltal_navbar.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Top Navbar</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+        *{
+            font-family: 'Poppins', sans-serif;
+            padding: 0;
+            margin: 0;
+
+        }
+        header{
+            position: fixed;
+            z-index: 999;
+            height: 13%;
+            padding: 0 25px;
+            width: calc(100% - 50px);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fff;
+            flex-wrap: wrap;
+        }
+        header > nav{
+            display: flex;
+            align-items: center;
+        }
+        header > nav > ul{
+            display: flex;
+            list-style: none;
+        }
+        header > nav > ul > li{
+            margin-right: 35px;
+        }
+        a{
+            color: #0d0d0d;
+            text-decoration: none;
+            transition: all .2s ease;
+        }
+        a:hover{
+            color: #207DE9;
+        }
+        .btn{
+            padding: 5px 25px;
+            background-color: #207DE9;
+            color: #fafafa;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all .2s ease;
+        }
+        .btn:hover{
+            background-color: #0f63c3;
+        }
+        .active a{
+            color: #207DE9;
+        }
+        .title-accent{
+            background-color: #5592d8;
+            color: #fafafa;
+            font-size: 1rem;
+            padding: 4px 6px;
+            border-radius: 3px;
+        }
+        main{
+            padding: 10%;
+            height: 100vh;
+            background-color: #dddddd;
+        }
+        main p{
+            margin: 25px 0;
+        }
+        footer{
+            height: 25vh;
+            padding: 5% 10%;
+            background-color: #5592d8;
+            color: #fafafa;
+        }
+    </style>
+    <header>
+        <a href="#">Website <span class="title-accent">LOGO</span></a>
+        <nav>
+            <ul>
+                <li class="">
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+            </ul>
+            <button class="btn">contact</button>
+        </nav>
+    </header>
+    <main>
+        <p>Other Content of the Website</p>
+        <img src="https://picsum.photos/200" alt="Random Image">
+        <img src="https://picsum.photos/200" alt="Random Image">
+        <img src="https://picsum.photos/200" alt="Random Image">
+        <img src="https://picsum.photos/200" alt="Random Image">
+        <img src="https://picsum.photos/200" alt="Random Image">
+    </main>
+    <footer>
+        <p>footer elements</p>
+    </footer>
+</body>
+</html>
+```
+
+### Hamburger Menu Navbar Code Example
+
+### Hamburger Menu Navbar Code Example
+
+### Sticky Navbar Code Example
+
+### Dropdown Navbar Code Example
+
+### Animated Navbar Code Example
