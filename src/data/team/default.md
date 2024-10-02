@@ -1,5 +1,5 @@
 ---
-name: Mohammed Nasim
+name: Md Nasim Sheikh
 avatar: /static/images/avatar.png
 occupation: Full Stack Web Developer
 company: wooeneStudio

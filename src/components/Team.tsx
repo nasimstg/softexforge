@@ -14,26 +14,26 @@ const TeamData: MemberData[] = [
         name: 'Md Nasim Sheikh',
         role: 'Mid Software Engineer',
         image: '/images/team/nasim.png',
-        profileLink: 'https://www.linkedin.com/in/nasimstg',
+        profileLink: '/team/nasimstg',
     },
     {
         name: 'Miraj Kishur',
         role: 'Junior Software Engineer',
         image: '/images/team/miraj.jpg',
-        profileLink: 'https://www.linkedin.com/in/mirajkisur',
+        profileLink: '/team/mirajkisur',
 
     },
     {
         name: 'Jubayer Arafat',
         role: 'Devops Engineer',
         image: '/images/team/jubayer.jpg',
-        profileLink: 'https://www.linkedin.com/in/jubayer',
+        profileLink: '/team/jubayer',
     },
     {
         name: 'Nusrat Tabassum',
         role: 'UI/UX Designer',
         image: '/images/team/oyshi.jpg',
-        profileLink: 'https://www.linkedin.com/in/nusrattabassum',
+        profileLink: '/team/nusrattabassum',
     },
 ]
 
@@ -42,7 +42,7 @@ export function Member({ name, role, image, profileLink }: MemberData) {
         <div className="group relative pb-1 transition-all lg:hover:!opacity-100 lg:group-hover:opacity-50">
             <div className="absolute -inset-x-2 -inset-y-2 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-4 lg:-inset-4 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
             <div className="z-10 sm:col-span-6">
-                <Link title={'Open '+ name + "'s LinkedIn profile)"} aria-label={name + "'s LinkedIn profile)"} target='_blank' href={profileLink} className='flex flex-col items-center relative z-10'>
+                <Link title={'Open '+ name + "'s LinkedIn profile)"} aria-label={name + "'s LinkedIn profile)"} href={profileLink} className='flex flex-col items-center relative z-10'>
                     <Image width={200} height={200} className="w-32 h-32 md:w-[160px] md:h-[160px] rounded-full" src={image} alt={name} />
                     <h3 className="mt-4 text-lg font-semibold">{name}</h3>
                     <p className="mt-1 text-sm text-gray-500">{role}</p>

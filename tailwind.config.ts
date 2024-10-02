@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+	
     content: [
 	"./src/app/**/*.{js,ts,jsx,tsx,mdx}",
 	"./src/layouts/**/*.{js,ts,jsx,tsx,mdx}",
@@ -60,6 +61,6 @@ const config: Config = {
   		}
   	}
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
 };
 export default config;

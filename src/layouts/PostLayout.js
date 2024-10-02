@@ -32,7 +32,7 @@ export default function PostLayout({
         authorDetails={authorDetails}
         {...frontMatter}
       />
-      <article>
+      <article className="">
         <div className="xl:divide-y xl:divide-gray-200 xl:dark:divide-gray-700">
           <header className="pt-6 xl:pb-6">
             <div className="space-y-1 text-center">
@@ -102,7 +102,7 @@ export default function PostLayout({
               </dd>
             </dl>
             <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
-              <div className="prose max-w-none pt-10 pb-8 dark:prose-dark">
+              <div className="prose prose-invert max-w-none pt-10 pb-8">
                 {children}
               </div>
             </div>

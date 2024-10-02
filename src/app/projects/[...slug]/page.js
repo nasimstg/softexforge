@@ -33,7 +33,7 @@ export async function getPost(slug) {
   const post = await getFileBySlug("blog", slug.join("/"));
   const authorList = post.frontMatter.authors || ["default"];
   const authorPromise = authorList.map(async (author) => {
-    const authorResults = await getFileBySlug("authors", [author]);
+    const authorResults = await getFileBySlug("team", [author]);
     return authorResults.frontMatter;
   });
   const authorDetails = await Promise.all(authorPromise);
