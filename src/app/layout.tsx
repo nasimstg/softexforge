@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import MouseEffect from "../components/MouseEffect";
+import siteMetadata from "@/data/siteMetadata";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -17,9 +18,42 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "SoftexForge | Software Solution | Innovation in System & Application Software",
-  description: "We bring your ideas to life with tailored software solutions. Whether it&apos;s system software, from kernel modifications to driver development, or application software for mobile, desktop, web, or standalone platforms, we&apos;ve got you covered. From concept to production, we handle every step of the process to deliver high-quality, custom-built software.",
+  title: siteMetadata.title,
+  description: siteMetadata.description,
+  openGraph: {
+    type: "website",
+    url: "https://softexforge.com",
+    title: siteMetadata.title,
+    description: siteMetadata.description,
+    images: [
+      {
+        url: siteMetadata.socialBanner,
+        width: 1280,
+        height: 720,
+        alt: "SoftexForge",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteMetadata.title,
+    description: siteMetadata.description,
+    images: [
+      {
+        url: siteMetadata.socialBanner,
+        alt: "SoftexForge",
+      },
+    ],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "https://softexforge.com",
+  },
 };
+
 
 export default function RootLayout({
   children,

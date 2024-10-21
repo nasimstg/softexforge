@@ -2,6 +2,7 @@ import { getAllFilesFrontMatter } from '@/lib/mdx'
 import Link from "@/components/Link";
 import Tag from '@/components/Tag';
 import formatDate from "@/lib/utils/formatDate";
+import siteMetadata from '@/data/siteMetadata';
 
 export const POSTS_PER_PAGE = 3
 
